@@ -1,7 +1,4 @@
 <h1 align="center">
-  <br>
-  <img src="https://github.com/guib1/D.A.S-enginner-roadmap/blob/d16daaab3a96524aad5ba4671225d995e81be6bb/img/logo.png" width="300" height="300">
-  <br>
   D.A.S Engineer Roadmap
   <br>
 </h1>
@@ -15,61 +12,89 @@
 </p>
 
 <p align="center">
-  <b>Este roadmap foi criado para orientar o aprendizado nas áreas de Desenvolvimento de Software, Engenharia de Dados e Engenharia de Inteligência Artificial (IA), fornecendo um caminho estruturado e detalhado desde os fundamentos até tópicos avançados.</b>
+  <b>Este roadmap foi criado para orientar o aprendizado nas áreas de Desenvolvimento de Software, Engenharia de Dados e Engenharia de Inteligência Artificial (IA), fornecendo um caminho de desenvolvedor à engenheiro de A.I. Todos os conteúdos que listarei podem ser encontrados de forma gratuita internet afora, porém, alguns cursos possam ser interessantes.</b>
 <br />
 
 > [!NOTE]
-> Se você gostou deste projeto, por favor me dê uma estrela ⭐ e ajude a divulgar o material!!
+> Se você gostou deste projeto, por favor me dê uma estrela ⭐ ajude a divulgar o material e fiquem a vontade para dar sugestões!!
 
-## Disclaimer
-
-    O objetivo desse repositório acima de tudo é adquirir CONHECIMENTO, não é só sobre conseguir uma vaga de emprego, mas se consolidar e ser o cara que manja de verdade no que gosta, não é sobre ser o melhor nos 3 ao mesmo tempo, mas estudar tudo para assim ser possivel escolher qual caminho seguir.
+## 🔎 Objetivo
+  O principal objetivo deste repositório é a busca por conhecimento acima de tudo. Não se trata apenas de conquistar uma vaga de emprego, mas de se consolidar como alguém que realmente entende e domina o que faz, alguém que é referência no que gosta. 
+  
+  Não é sobre ser o melhor em todas as três áreas ao mesmo tempo, mas sim estudar profundamente cada uma delas para, com clareza, poder escolher o caminho que mais se alinha aos seus objetivos e paixões.
 
 ***
 ## 📖 Tabela de Conteúdo
-- [Introdução](#-Introduction)
-- [Algoritmos, matemática e lógica](#-Algorithms,-Math-&-Logic)
-  - [1. GIT](#1-git)
-- [Algorithms, Math & Logic](#learning-resources-for-devops-engineers-mostly-free)
-  - [1. GIT](#1-git)
-  - [2. Learn one programming language](#2-learn-one-programming-language)
-  - [3. Learn Linux & Scripting](#3-learn-linux--scripting)
-  - [4. Learn Networking & Security](#4-learn-networking--security)
-  - [5. Learn Server Management](#5-learn-server-management)
-  - [6. Learn Containers](#6-learn-containers)
-  - [7. Learn Container Orchestration](#7-learn-container-orchestration)
-  - [8. Learn Infrastructure as a code](#8-learn-infrastructure-as-a-code)
-  - [9. Learn CI/CD](#9-learn-cicd)
-  - [10. Learn Monitoring & Observability](#10-learn-monitoring--observability)
-  - [11. Learn one Cloud provider](#11-learn-one-cloud-provider)
-  - [12. Learn Software Engineering Practices](#12-learn-software-engineering-practices)
-- [Additional resources](#additional-resources)
-  - [Tools](#-tools)
-  - [Books](#-books)
-  - [External Interesting Roadmaps that Would Be Useful](#-books)
+- [Introdução](#-Introdução)
+- [Desenvolvimento de Software (Software Development)](#learning-resources-for-devops-engineers-mostly-free)
+  - [1 Matemática](#1-Matemática)
+  - [2 Lógica Computacional](#1-Matemática)
+  - [3 Estrutura de dados e Algoritmos](#3-Algoritmos)
+  - [4. GIT](#-Aprendendo-os-Fundamentos)
+- [Recursos Adicionais](#additional-resources)
+  - [Ferramentas](#-tools)
+  - [Livros](#-books)
+  - [Roadmaps externos que podem ser úteis](#-books)
+- [Referências](#additional-resources)
+
+##  💡 Introdução
+  Para seguir esse estudo de um jeito que seja eficaz é necessário seguir algumas métricas para que não acabe sendo nem desgastante quanto confuso.
+- **Escolha um foco inicial**: Embora seja possível estudar as três áreas simultaneamente, é recomendável seguir a ordem do roadmap, pois uma coisa acaba levando a outra, exemplo:
+  - Para se tornar um bom engenheiro de dados é recomendado possuir uma ótima base em Desenvolvimento de software, estrutura de código e lógica de programação. 
+  - Portanto é lógico pensar que um bom desenvolvedor de software consegue se tornar um engenheiro de dados mais rapidamente. Mas se for de preferencia é possível começar por outro tópico.
+  
+- **Estude em camadas**: A maioria das seções estão organizadas de forma progressiva, do básico ao avançado, é aconselhável dominar cada tópico antes de passar para o próximo.
+- **Pratique regularmente**: Combine teoria com prática, utilizando projetos, desafios e aplicações reais para reforçar o aprendizado.
+- **Use os recursos adicionais**: O roadmap inclui recomendações de livros, cursos, ferramentas e outros materiais que complementarão seus estudos.
+
+> [!IMPORTANT]
+> *Não é restritamente necessário conhecer profundamente esses tópicos para conseguir prosseguir e estudar os próximos, porém é interessante estudar de formar reservada esse pontos para solidificar o conhecimento.*
+
+## 🛠️ 1 Matemática
+Matemática é frequentemente negligenciada por muitos vendedores de cursos, mas sua importância não pode ser subestimada. Ter uma base sólida em matemática é essencial para compreender em profundidade como o computador opera, afinal, o computador é nada mais do que uma máquina super avançada de computação, assim como o nome já sugere.
+
+| **Área de Estudo**         | **Tópicos**                                                                                           | **Aplicações**                                                                                 |
+|----------------------------|------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| **Matemática Discreta**    | - Lógica e Conjuntos<br>- Conjuntos, relações e funções<br>- Teoria dos grafos<br>- Combinatória<br>- Álgebra Booleana | - Análise de Algoritmos <br>- A.I. <br>- Estruturas de dados (árvores, grafos) |
+| **Álgebra Linear**         | - Vetores e matrizes<br>- Operações com matrizes<br>- Transformações lineares<br>- Autovalores e autovetores<br>- Espaços vetoriais          | - Computação gráfica<br>- Machine Learning (redução dimensional, regressão)<br>- Sistemas lineares |
+| **Cálculo**                | - Limites e continuidade<br>- Derivadas e aplicações<br>- Integrais e aplicações<br>- Séries infinitas e convergência | - Modelagem física<br>- Otimização em IA<br>- Processos de simulação e análise |
+| **Probabilidade e Estatística** | - Probabilidade básica (espaços amostrais, eventos)<br>- Variáveis aleatórias e distribuições<br>- Inferência estatística<br>- Testes de hipóteses e regressão | - Machine Learning (modelos probabilísticos)<br>- Análise de dados<br>- Sistemas de recomendação |
+
+Links de estudo:
+
+| Nome | Descrição | Link | 
+|:------|:------|:------|
+| Learn Mathematics from START to FINISH | Video apresentando os principais livros indicados para cada assunto do ensino em matemática. | https://www.youtube.com/watch?app=desktop&v=pTnEG_WGd2Q |
+| Kham Academy | Site com cursos, trilhas, provas e exercicios para a evolução matemática. | https://pt.khanacademy.org |
+| OSSU - MATH | Repositório com um guia de cursos para cada matéria, do básico ao avançado. | https://github.com/ossu/math?tab=readme-ov-file#core-mathematics |
+
+## 🛠️ 1.1 Fundamentos de Computação
 
 
-##  💡 Introdução:
-Para seguir esse estudo de um jeito que seja eficaz é necessário seguir algumas métricas para que não acabe sendo nem desgastante quanto confuso.
-- Escolha um foco inicial: Embora seja possível estudar as três áreas simultaneamente, é recomendável começar com uma, como Desenvolvimento de Software, para construir uma base sólida antes de avançar para as outras.
-- Estude em camadas: Cada seção está organizada de forma progressiva, do básico ao avançado. Domine cada tópico antes de passar para o próximo.
-- Pratique regularmente: Combine teoria com prática, utilizando projetos, desafios e aplicações reais para reforçar o aprendizado.
-- Use os recursos adicionais: O roadmap inclui recomendações de livros, cursos, ferramentas e outros materiais que complementarão seus estudos.
+## Ferramentas
+https://pt.khanacademy.org  
+https://leetcode.com
 
+## Livros
+- **Entendendo Algoritmos: Um Guia Ilustrado Para Programadores e Outros Curiosos**  
+  *Autor: Robert C. Martin*
 
-## 🛠️ Algorithms, Math & Logic
-    1. Press on the "Add taskbar group"
-    2. Give the group a name and an icon
-    3. Click on the "Add new shortcut" and select an .exe or .lnk (repeat until you got all your desired shortcuts)
-	    a. You can select multiple .exe or .lnk files at once
-	    b. You can drag and drop .exe, .lnk, or folders into the add new shortcut field
-    4. Save the group
-    enter image description here5. Left click on the group
-    6. In the folder that opens up, right click on the highlighted shortcut
-    7. Select "Pin to taskbar"
+- **The Art of Computer Programming**  
+  *Autor: Donald E. Knuth*
 
+- **Domain-Driven Design: Atacando as Complexidades no Coração do Software**
+  *Autor: Eric Evans*
 
-## External Interesting Roadmaps that Would Be Useful
+- **Unit Testing Principles, Practices, and Patterns: Effective Testing Styles, Patterns, and Reliable Automation for Unit Testing, Mocking, and Integration Testing with Examples in C#**   
+  *Autor: Vladimir KhorikovVladimir Khorikov*
+
+- **Fundamentos de Engenharia de Dados: Projete e Construa Sistemas de Dados Robustos**   
+  *Autor: Joe Reis*
+
+- **Designing Data Intensive Applications**   
+  *Autor: Kleppmann*  
+
+## Roadmaps externos que podem ser úteis
 | Topic | Links | 
 |:------|:------|
 | Data Structures & Algorithms | https://roadmap.sh/datastructures-and-algorithms |
@@ -86,3 +111,13 @@ Para seguir esse estudo de um jeito que seja eficaz é necessário seguir alguma
 | AI and Data Scientist | https://roadmap.sh/ai-data-scientist |
 | AWS | https://roadmap.sh/aws |
 
+## Referências
+
+- **Math - Open Source Society University (OSSU)**  
+  Um currículo completo e gratuito para aprender matemática aplicada à ciência da computação, incluindo álgebra linear, cálculo, probabilidade, e muito mais.  
+  [GitHub - OSSU Math](https://github.com/ossu/math?tab=readme-ov-file)
+  
+- **Matemática Discreta - Introdução**  
+  Autor: Antonio Loureiro  
+  Um material introdutório sobre Matemática Discreta, cobrindo os fundamentos de lógica, conjuntos, relações, funções e muito mais.  
+  [Acesse o PDF aqui](https://homepages.dcc.ufmg.br/~loureiro/md/md_0Introducao.pdf)
