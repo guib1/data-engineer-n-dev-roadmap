@@ -24,21 +24,41 @@
   Não é sobre ser o melhor em todas as três áreas ao mesmo tempo, mas sim estudar profundamente cada uma delas para, com clareza, poder escolher o caminho que mais se alinha aos seus objetivos e paixões.
 
 ## 📖 Tabela de Conteúdo
-- [Introdução](#-Introdução)
-- [Desenvolvimento de Software (Software Development)](#learning-resources-for-devops-engineers-mostly-free)
-  - [1. Matemática](#1-Matemática)
-  - [2. Lógica de Programação](#1-Matemática)
-  - [3. Estrutura de dados](#3-Algoritmos)
-  - [4. GIT](#-Aprendendo-os-Fundamentos)
-  - [5. Linguagem de Programação](#-Aprendendo-os-Fundamentos)
-- [Básico a Ciência de Dados (Data Science)](#learning-resources-for-devops-engineers-mostly-free)  
-- [Engenharia de dados (Data Engineering)](#learning-resources-for-devops-engineers-mostly-free)
-- [Engenharia de A.I (A.I. Engineering)](#learning-resources-for-devops-engineers-mostly-free)
-- [Recursos Adicionais](#additional-resources)
-  - [Ferramentas](#-tools)
-  - [Livros](#-books)
-  - [Roadmaps externos que podem ser úteis](#-books)
-- [Referências](#additional-resources)
+- [Introdução](#introdução)
+- [Desenvolvimento de Software (Software Development)](#desenvolvimento-de-software-software-development)
+  - [1. Matemática](#1-matemática)
+  - [2. Lógica de Programação Completa](#2-lógica-de-programação-completa)
+  - [3. Linguagens de Programação](#3-linguagens-de-programação)
+  - [4. GIT e Controle de Versão](#4-git-e-controle-de-versão)
+  - [5. DevOps e CI/CD](#11-devops-e-cicd)
+  - [6. Design Patterns](#9-design-patterns)
+  - [7. Arquitetura de Software](#12-arquitetura-de-software)
+- [Básico a Ciência de Dados (Data Science)](#básico-a-ciência-de-dados-data-science)
+  - [1. Estatística Básica](#1-estatística-básica)
+  - [2. Manipulação de Dados](#2-manipulação-de-dados)
+  - [3. Visualização de Dados](#3-visualização-de-dados)
+  - [4. Machine Learning Básico](#4-machine-learning-básico)
+- [Engenharia de Dados (Data Engineering)](#engenharia-de-dados-data-engineering)
+  - [1. Fundamentos de Bancos de Dados](#1-fundamentos-de-bancos-de-dados)
+  - [2. ETL (Extract, Transform, Load)](#2-etl-extract-transform-load)
+  - [3. Data Warehouse, Data lake, Pipeline de dados](#5-streaming-de-dados)
+  - [4. Big Data](#3-big-data-e-ferramentas)
+  - [5. Streaming de Dados](#5-streaming-de-dados)
+  - [6. Ferramentas](#5-streaming-de-dados)
+    - [6.1 AWS](#5-streaming-de-dados)
+    - [6.2 Azure](#5-streaming-de-dados)
+    - [6.3 Google Cloud](#5-streaming-de-dados)
+    - [6.4 Databricks](#5-streaming-de-dados)
+    - [6.5 Ferramentas Apache](#5-streaming-de-dados)
+- [Engenharia de A.I. (A.I. Engineering)](#engenharia-de-ai-ai-engineering)
+  - [1. Redes Neurais](#1-redes-neurais)
+  - [2. Deep Learning](#2-deep-learning)
+  - [3. Modelos de Linguagem (LLMs)](#3-modelos-de-linguagem-llms)
+  - [4. NLP (Natural Language Processing)](#4-nlp-natural-language-processing)
+- [Recursos Adicionais](#recursos-adicionais)
+  - [Ferramentas](#ferramentas)
+  - [Outros Livros](#outros-livros)
+- [Referências](#referências)
 
 ##  💡 Introdução
   Para seguir esse estudo de um jeito que seja eficaz é necessário seguir algumas métricas para que não acabe sendo nem desgastante quanto confuso.
@@ -50,6 +70,8 @@
 - **Pratique regularmente**: Combine teoria com prática, utilizando projetos, desafios e aplicações reais para reforçar o aprendizado.
 - **Use os recursos adicionais**: O roadmap inclui recomendações de livros, cursos, ferramentas e outros materiais que complementarão seus estudos.
 
+<br>
+
 ## ➗ 1. Matemática
 Matemática é frequentemente negligenciada por muitos vendedores de cursos, mas sua importância não pode ser subestimada. Ter uma base sólida em matemática é essencial para compreender em profundidade como o computador opera, afinal, o computador é nada mais do que uma máquina super avançada de computação, assim como o nome já sugere.
 
@@ -60,7 +82,7 @@ Matemática é frequentemente negligenciada por muitos vendedores de cursos, mas
 | **Cálculo**                | - Limites e continuidade<br>- Derivadas e aplicações<br>- Integrais e aplicações<br>- Séries infinitas e convergência | - Modelagem física<br>- Otimização em IA<br>- Processos de simulação e análise |
 | **Probabilidade e Estatística** | - Probabilidade básica (espaços amostrais, eventos)<br>- Variáveis aleatórias e distribuições<br>- Inferência estatística<br>- Testes de hipóteses e regressão | - Machine Learning (modelos probabilísticos)<br>- Análise de dados<br>- Sistemas de recomendação |
 
-**Links de estudo:**
+### Links com conteúdo informátivo
 
 | Nome | Descrição | Link | 
 |:------|:------|:------|
@@ -68,9 +90,9 @@ Matemática é frequentemente negligenciada por muitos vendedores de cursos, mas
 | Kham Academy | Site com cursos, trilhas, provas e exercicios para a evolução matemática. | https://pt.khanacademy.org |
 | OSSU - MATH | Repositório com um guia de cursos para cada matéria, do básico ao avançado. | https://github.com/ossu/math?tab=readme-ov-file#core-mathematics |
 
-## 🛠️ 2. Lógica de Programação
+<br>
 
-
+## 🛠️ 2. Lógica de Programação Completa
 
 - **O que é Lógica de Programação?**
   - Conjunto de regras e técnicas para resolver problemas computacionais.
@@ -92,11 +114,20 @@ Matemática é frequentemente negligenciada por muitos vendedores de cursos, mas
 | **Algoritmos Clássicos**   | - Ordenação (Bubble Sort, Quick Sort, Merge Sort)<br>- Busca (Linear, Binária)<br>- Busca em Grafos (BFS, DFS) | - Processamento eficiente<br>- Organização e análise de grandes volumes de dados             |
 | **Programação Orientada a Objetos (POO)**  | - Classes e Objetos<br>- Encapsulamento<br>- Herança<br>- Polimorfismo | - Modelagem de sistemas complexos<br>- Desenvolvimento de software escalável e modularizado  |
 
-**Links de estudo:**
+### Links com conteúdo informátivo
 
 | Nome | Descrição | Link | 
 |:------|:------|:------|
 | Curso Lógica Virado no Jiraya | Curso completo de lógica de programação utilizando JAVA | https://www.youtube.com/playlist?list=PL62G310vn6nH-uBTKREcUWDkOi2Q9n4OZ |
+| Curso Completo de Lógica de Programação com Português Estruturado do Zero ao Avançado | Curso completo de lógica de programação utilizando Portugol | https://www.youtube.com/watch?v=XzkZO2qjgec&t=175s |
+
+### Livros
+- **Entendendo Algoritmos: Um Guia Ilustrado Para Programadores e Outros Curiosos**  
+  *Autor: Robert C. Martin*
+
+<br>
+
+## 🛠️ 3. Linguagens de Programação
 
 ## Ferramentas
 - [Khan Academy](https://pt.khanacademy.org)  
@@ -104,10 +135,7 @@ Matemática é frequentemente negligenciada por muitos vendedores de cursos, mas
 - [LeetCode](https://leetcode.com/)
 - [CodeWars](https://www.codewars.com/)
 
-## Livros
-- **Entendendo Algoritmos: Um Guia Ilustrado Para Programadores e Outros Curiosos**  
-  *Autor: Robert C. Martin*
-
+## Outros Livros
 - **The Art of Computer Programming**  
   *Autor: Donald E. Knuth*
 
@@ -123,23 +151,6 @@ Matemática é frequentemente negligenciada por muitos vendedores de cursos, mas
 - **Designing Data Intensive Applications**   
   *Autor: Kleppmann*  
 
-## Roadmaps externos que podem ser úteis
-| Topic | Links | 
-|:------|:------|
-| Data Structures & Algorithms | https://roadmap.sh/datastructures-and-algorithms |
-| Software Design and Architecture | https://roadmap.sh/software-design-architecture |
-| Java | https://roadmap.sh/java |
-| SQL | https://roadmap.sh/sql |
-| SpringBoot | https://roadmap.sh/spring-boot |
-| Python | https://roadmap.sh/python |
-| JavaScript | https://roadmap.sh/javascript |
-| Git & GitHub | https://roadmap.sh/git-github |
-| Data Structures & Algorithms | https://roadmap.sh/datastructures-and-algorithms |
-| API Design | https://roadmap.sh/api-design |
-| MongoDB | https://roadmap.sh/mongodb |
-| AI and Data Scientist | https://roadmap.sh/ai-data-scientist |
-| AWS | https://roadmap.sh/aws |
-
 ## Referências
 
 - **Math - Open Source Society University (OSSU)**  
@@ -150,3 +161,7 @@ Matemática é frequentemente negligenciada por muitos vendedores de cursos, mas
   Autor: Antonio Loureiro  
   Um material introdutório sobre Matemática Discreta, cobrindo os fundamentos de lógica, conjuntos, relações, funções e muito mais.  
   [Acesse o PDF aqui](https://homepages.dcc.ufmg.br/~loureiro/md/md_0Introducao.pdf)
+
+- **Developer Roadmap - Kamran Ahmed**  
+  Um repositório com diversos roadmaps de várias áreas de desenvolvimento das mais variadas, a maioria foram feitas pela comunidade   
+  [GitHub - Developer Roadmap](https://github.com/kamranahmedse/developer-roadmap/tree/master?tab=readme-ov-file)
