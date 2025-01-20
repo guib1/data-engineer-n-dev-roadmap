@@ -23,14 +23,17 @@
   
   Não é sobre ser o melhor em todas as três áreas ao mesmo tempo, mas sim estudar profundamente cada uma delas para, com clareza, poder escolher o caminho que mais se alinha aos seus objetivos e paixões.
 
-***
 ## 📖 Tabela de Conteúdo
 - [Introdução](#-Introdução)
 - [Desenvolvimento de Software (Software Development)](#learning-resources-for-devops-engineers-mostly-free)
-  - [1 Matemática](#1-Matemática)
-  - [2 Lógica Computacional](#1-Matemática)
-  - [3 Estrutura de dados e Algoritmos](#3-Algoritmos)
+  - [1. Matemática](#1-Matemática)
+  - [2. Lógica de Programação](#1-Matemática)
+  - [3. Estrutura de dados](#3-Algoritmos)
   - [4. GIT](#-Aprendendo-os-Fundamentos)
+  - [5. Linguagem de Programação](#-Aprendendo-os-Fundamentos)
+- [Básico a Ciência de Dados (Data Science)](#learning-resources-for-devops-engineers-mostly-free)  
+- [Engenharia de dados (Data Engineering)](#learning-resources-for-devops-engineers-mostly-free)
+- [Engenharia de A.I (A.I. Engineering)](#learning-resources-for-devops-engineers-mostly-free)
 - [Recursos Adicionais](#additional-resources)
   - [Ferramentas](#-tools)
   - [Livros](#-books)
@@ -47,10 +50,7 @@
 - **Pratique regularmente**: Combine teoria com prática, utilizando projetos, desafios e aplicações reais para reforçar o aprendizado.
 - **Use os recursos adicionais**: O roadmap inclui recomendações de livros, cursos, ferramentas e outros materiais que complementarão seus estudos.
 
-> [!IMPORTANT]
-> *Não é restritamente necessário conhecer profundamente esses tópicos para conseguir prosseguir e estudar os próximos, porém é interessante estudar de formar reservada esse pontos para solidificar o conhecimento.*
-
-## 🛠️ 1 Matemática
+## ➗ 1. Matemática
 Matemática é frequentemente negligenciada por muitos vendedores de cursos, mas sua importância não pode ser subestimada. Ter uma base sólida em matemática é essencial para compreender em profundidade como o computador opera, afinal, o computador é nada mais do que uma máquina super avançada de computação, assim como o nome já sugere.
 
 | **Área de Estudo**         | **Tópicos**                                                                                           | **Aplicações**                                                                                 |
@@ -60,7 +60,7 @@ Matemática é frequentemente negligenciada por muitos vendedores de cursos, mas
 | **Cálculo**                | - Limites e continuidade<br>- Derivadas e aplicações<br>- Integrais e aplicações<br>- Séries infinitas e convergência | - Modelagem física<br>- Otimização em IA<br>- Processos de simulação e análise |
 | **Probabilidade e Estatística** | - Probabilidade básica (espaços amostrais, eventos)<br>- Variáveis aleatórias e distribuições<br>- Inferência estatística<br>- Testes de hipóteses e regressão | - Machine Learning (modelos probabilísticos)<br>- Análise de dados<br>- Sistemas de recomendação |
 
-Links de estudo:
+**Links de estudo:**
 
 | Nome | Descrição | Link | 
 |:------|:------|:------|
@@ -68,12 +68,41 @@ Links de estudo:
 | Kham Academy | Site com cursos, trilhas, provas e exercicios para a evolução matemática. | https://pt.khanacademy.org |
 | OSSU - MATH | Repositório com um guia de cursos para cada matéria, do básico ao avançado. | https://github.com/ossu/math?tab=readme-ov-file#core-mathematics |
 
-## 🛠️ 1.1 Fundamentos de Computação
+## 🛠️ 2. Lógica de Programação
 
+
+
+- **O que é Lógica de Programação?**
+  - Conjunto de regras e técnicas para resolver problemas computacionais.
+  - Base para aprender qualquer linguagem de programação.
+- **Por que é importante?**
+  - Desenvolve habilidades de pensamento estruturado e resolução de problemas.
+  - Fundamental para escrever código eficiente e escalável.
+
+---
+
+| **Área de Estudo**          | **Tópicos**                                                                                     | **Aplicações**                                                                                  |
+|-----------------------------|------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| **Fundamentos de Lógica**   | - Estruturas Sequenciais<br>- Condicionais (if/else/switch)<br>- Loops (for, while, do-while)   | - Automação de tarefas<br>- Solução de problemas básicos<br>- Desenvolvimento de algoritmos básicos |
+| **Funções e Modularização** | - Criação e uso de funções<br>- Recursividade<br>- Escopo e parâmetros                          | - Reutilização de código<br>- Desenvolvimento de sistemas escaláveis<br>- Solução de problemas complexos |
+| **Estruturas de Dados Simples** | - Vetores (Arrays)<br>- Listas<br>- Matrizes                                                | - Organização de dados<br>- Processamento de coleções<br>- Algoritmos de busca e ordenação   |
+| **Estruturas Condicionais Avançadas** | - Operadores Lógicos e Relacionais<br>- Expressões Ternárias<br>- Short-circuit Evaluation | - Otimização de condições<br>- Redução de complexidade de código                              |
+| **Estruturas de Dados Avançadas**  | - Pilhas<br>- Filas<br>- Hash Tables<br>- Árvores<br>- Grafos                          | - Algoritmos de roteamento<br>- Estruturas hierárquicas<br>- Processamento de dados dinâmicos |
+| **Pensamento Computacional** | - Divisão e Conquista (Divide and Conquer)<br>- Abstração<br>- Debugging                      | - Solução de problemas complexos<br>- Melhoria da eficiência de código<br>- Detecção de erros e otimização |
+| **Algoritmos Clássicos**   | - Ordenação (Bubble Sort, Quick Sort, Merge Sort)<br>- Busca (Linear, Binária)<br>- Busca em Grafos (BFS, DFS) | - Processamento eficiente<br>- Organização e análise de grandes volumes de dados             |
+| **Programação Orientada a Objetos (POO)**  | - Classes e Objetos<br>- Encapsulamento<br>- Herança<br>- Polimorfismo | - Modelagem de sistemas complexos<br>- Desenvolvimento de software escalável e modularizado  |
+
+**Links de estudo:**
+
+| Nome | Descrição | Link | 
+|:------|:------|:------|
+| Curso Lógica Virado no Jiraya | Curso completo de lógica de programação utilizando JAVA | https://www.youtube.com/playlist?list=PL62G310vn6nH-uBTKREcUWDkOi2Q9n4OZ |
 
 ## Ferramentas
-https://pt.khanacademy.org  
-https://leetcode.com
+- [Khan Academy](https://pt.khanacademy.org)  
+- [HackerRank](https://www.hackerrank.com/)
+- [LeetCode](https://leetcode.com/)
+- [CodeWars](https://www.codewars.com/)
 
 ## Livros
 - **Entendendo Algoritmos: Um Guia Ilustrado Para Programadores e Outros Curiosos**  
