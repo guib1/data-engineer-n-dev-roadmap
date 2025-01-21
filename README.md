@@ -42,16 +42,20 @@
 - **Pratique regularmente**: Combine teoria com prática, utilizando projetos, desafios e aplicações reais para reforçar o aprendizado.
 - **Use os recursos adicionais**: O roadmap inclui recomendações de livros, cursos, ferramentas e outros materiais que complementarão seus estudos.
 
+
 ## 💡 Matérias D.A.S
 
-<h1 align="center">
+<center>
 
 [![Desenvolvimento de Software](https://img.shields.io/badge/-Software%20Development-blue?style=for-the-badge)](./1_Software-Development/README.md)
 [![Ciência de Dados](https://img.shields.io/badge/-Data%20Science-green?style=for-the-badge)](./2_Data-Science/README.md)
 [![Engenharia de Dados](https://img.shields.io/badge/-Data%20Engineering-orange?style=for-the-badge)](./3_Data-Engineering/README.md)
 [![Engenharia de IA](https://img.shields.io/badge/-AI%20Engineering-red?style=for-the-badge)](./4_AI-Engineering/README.md)
 
-</h1>
+</center>
+
+> [!TIP]
+> Clique nos botões para ser redirecionado ao conteúdo desejado!
 
 ## Ferramentas
 - [Khan Academy](https://pt.khanacademy.org)  
