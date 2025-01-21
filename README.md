@@ -52,11 +52,12 @@
 [![Engenharia de Dados](https://img.shields.io/badge/-Data%20Engineering-orange?style=for-the-badge)](./3_Data-Engineering/README.md)
 [![Engenharia de IA](https://img.shields.io/badge/-AI%20Engineering-red?style=for-the-badge)](./4_AI-Engineering/README.md)
 
+</h1>
+
+
 > [!TIP]
 > Clique nos botões para ser redirecionado ao conteúdo desejado!
 
-
-</h1>
 
 ## Ferramentas
 - [Khan Academy](https://pt.khanacademy.org)  
