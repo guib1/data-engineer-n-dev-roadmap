@@ -26,38 +26,54 @@
 ## 📖 Tabela de Conteúdo
 - [Introdução](#introdução)
 - [Desenvolvimento de Software (Software Development)](#desenvolvimento-de-software-software-development)
-  - [1. Matemática](#1-matemática)
+  - [1. Matemática][def]
   - [2. Lógica de Programação Completa](#2-lógica-de-programação-completa)
   - [3. Linguagens de Programação](#3-linguagens-de-programação)
-  - [4. GIT e Controle de Versão](#4-git-e-controle-de-versão)
-  - [5. DevOps e CI/CD](#11-devops-e-cicd)
-  - [6. Design Patterns](#9-design-patterns)
-  - [7. Arquitetura de Software](#12-arquitetura-de-software)
-- [Básico a Ciência de Dados (Data Science)](#básico-a-ciência-de-dados-data-science)
-  - [1. Estatística Básica](#1-estatística-básica)
-  - [2. Manipulação de Dados](#2-manipulação-de-dados)
-  - [3. Visualização de Dados](#3-visualização-de-dados)
-  - [4. Machine Learning Básico](#4-machine-learning-básico)
+  - [4. Estrutura de Dados e SQL](#4-estrutura-de-dados-e-sql)
+  - [5. GIT e Controle de Versão](#5-git-e-controle-de-versão)
+  - [6. DevOps e CI/CD](#6-devops-e-cicd)
+    - [6.1 Terraform](#6-devops-e-cicd)
+    - [6.2 Docker](#6-devops-e-cicd)
+  - [7. APIs](#7-apis)
+    - [7.1 GraphQL](#7-apis)
+    - [7.2 Rest API](#7-apis)
+  - [8. Design Patterns](#8-design-patterns)
+  - [9. Arquitetura de Software](#9-arquitetura-de-software)
+  - [10. Metodologias Ágeis](#9-arquitetura-de-software)
+- [Ciência de Dados (Data Science)](#ciência-de-dados-data-science)
+  - [1. Fundamentos de Ciência de Dados e Resolução de Problemas](#1-fundamentos-de-ciência-de-dados-e-resolução-de-problemas)
+  - [2. Estatística Descritiva](#2-estatística-descritiva)
+  - [3. Manipulação de Dados](#3-manipulação-de-dados)
+  - [4. Visualização de Dados](#4-visualização-de-dados)
+  - [5. Machine Learning Básico](#5-machine-learning-básico)
+  - [6. Deep Learning](#6-deep-learning)
 - [Engenharia de Dados (Data Engineering)](#engenharia-de-dados-data-engineering)
   - [1. Fundamentos de Bancos de Dados](#1-fundamentos-de-bancos-de-dados)
   - [2. ETL (Extract, Transform, Load)](#2-etl-extract-transform-load)
-  - [3. Data Warehouse, Data lake, Pipeline de dados](#5-streaming-de-dados)
-  - [4. Big Data](#3-big-data-e-ferramentas)
-  - [5. Streaming de Dados](#5-streaming-de-dados)
-  - [6. Ferramentas](#5-streaming-de-dados)
-    - [6.1 AWS](#5-streaming-de-dados)
-    - [6.2 Azure](#5-streaming-de-dados)
-    - [6.3 Google Cloud](#5-streaming-de-dados)
-    - [6.4 Databricks](#5-streaming-de-dados)
-    - [6.5 Ferramentas Apache](#5-streaming-de-dados)
+    - [2.1 ELT (Extract, Load, Transform)](#21-elt-extract-load-transform)
+  - [3. SQL & NoSQL Avançado](#3-sql--nosql-avançado)
+  - [4. Data Warehouse, Data Lake, Pipeline de Dados](#4-data-warehouse-data-lake-pipeline-de-dados)
+  - [5. Big Data](#5-big-data)
+  - [6. Streaming de Dados](#6-streaming-de-dados)
+  - [7. Segurança de Dados](#7-segurança-de-dados)
+  - [8. Ferramentas](#8-ferramentas)
+    - [8.1 AWS](#81-aws)
+    - [8.2 Azure](#82-azure)
+    - [8.3 Google Cloud](#83-google-cloud)
+    - [8.4 Databricks](#84-databricks)
+    - [8.5 Ferramentas Apache](#85-ferramentas-apache)
+  - [9. DataOps](#9-DataOps)
 - [Engenharia de A.I. (A.I. Engineering)](#engenharia-de-ai-ai-engineering)
-  - [1. Redes Neurais](#1-redes-neurais)
-  - [2. Deep Learning](#2-deep-learning)
-  - [3. Modelos de Linguagem (LLMs)](#3-modelos-de-linguagem-llms)
-  - [4. NLP (Natural Language Processing)](#4-nlp-natural-language-processing)
+  - [1. A.I Engineer vs Machine Learning Engineer](#1-ai-engineer-vs-machine-learning-engineer)
+  - [2. Redes Neurais](#2-redes-neurais)
+  - [3. Banco de Dados Vetorial](#3-banco-de-dados-vetorial)
+  - [4. Prompt Engineering](#4-prompt-engineering)
+  - [5. Modelos de Linguagem (LLMs)](#5-modelos-de-linguagem-llms)
+  - [6. NLP (Natural Language Processing)](#6-nlp-natural-language-processing)
+  - [7. LLMOps](#7-llmops)
 - [Recursos Adicionais](#recursos-adicionais)
-  - [Ferramentas](#ferramentas)
-  - [Outros Livros](#outros-livros)
+  - [1. Ferramentas](#1-ferramentas)
+  - [2. Outros Livros](#2-outros-livros)
 - [Referências](#referências)
 
 ##  💡 Introdução
@@ -72,6 +88,7 @@
 
 <br>
 
+[def]: #1-matemática
 ## ➗ 1. Matemática
 Matemática é frequentemente negligenciada por muitos vendedores de cursos, mas sua importância não pode ser subestimada. Ter uma base sólida em matemática é essencial para compreender em profundidade como o computador opera, afinal, o computador é nada mais do que uma máquina super avançada de computação, assim como o nome já sugere.
 
@@ -129,6 +146,7 @@ Matemática é frequentemente negligenciada por muitos vendedores de cursos, mas
 
 ## 🛠️ 3. Linguagens de Programação
 
+
 ## Ferramentas
 - [Khan Academy](https://pt.khanacademy.org)  
 - [HackerRank](https://www.hackerrank.com/)
@@ -163,5 +181,7 @@ Matemática é frequentemente negligenciada por muitos vendedores de cursos, mas
   [Acesse o PDF aqui](https://homepages.dcc.ufmg.br/~loureiro/md/md_0Introducao.pdf)
 
 - **Developer Roadmap - Kamran Ahmed**  
-  Um repositório com diversos roadmaps de várias áreas de desenvolvimento das mais variadas, a maioria foram feitas pela comunidade   
+  Um repositório com diversos roadmaps de várias áreas de desenvolvimento das mais variadas.   
   [GitHub - Developer Roadmap](https://github.com/kamranahmedse/developer-roadmap/tree/master?tab=readme-ov-file)
+
+
