@@ -26,7 +26,7 @@
 ## 📖 Tabela de Conteúdo
 - [Introdução](#introdução)
 - [Desenvolvimento de Software (Software Development)](#desenvolvimento-de-software-software-development)
-  - [1. Matemática][def]
+  - [1. Matemática](#-1-matemática)
   - [2. Lógica de Programação Completa](#2-lógica-de-programação-completa)
   - [3. Linguagens de Programação](#3-linguagens-de-programação)
   - [4. Estrutura de Dados e SQL](#4-estrutura-de-dados-e-sql)
@@ -76,7 +76,7 @@
   - [2. Outros Livros](#2-outros-livros)
 - [Referências](#referências)
 
-##  💡 Introdução
+## 💡 Introdução
   Para seguir esse estudo de um jeito que seja eficaz é necessário seguir algumas métricas para que não acabe sendo nem desgastante quanto confuso.
 - **Escolha um foco inicial**: Embora seja possível estudar as três áreas simultaneamente, é recomendável seguir a ordem do roadmap, pois uma coisa acaba levando a outra, exemplo:
   - Para se tornar um bom engenheiro de dados é recomendado possuir uma ótima base em Desenvolvimento de software, estrutura de código e lógica de programação. 
@@ -88,7 +88,6 @@
 
 <br>
 
-[def]: #1-matemática
 ## ➗ 1. Matemática
 Matemática é frequentemente negligenciada por muitos vendedores de cursos, mas sua importância não pode ser subestimada. Ter uma base sólida em matemática é essencial para compreender em profundidade como o computador opera, afinal, o computador é nada mais do que uma máquina super avançada de computação, assim como o nome já sugere.
 
@@ -183,5 +182,3 @@ Matemática é frequentemente negligenciada por muitos vendedores de cursos, mas
 - **Developer Roadmap - Kamran Ahmed**  
   Um repositório com diversos roadmaps de várias áreas de desenvolvimento das mais variadas.   
   [GitHub - Developer Roadmap](https://github.com/kamranahmedse/developer-roadmap/tree/master?tab=readme-ov-file)
-
-
