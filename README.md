@@ -45,17 +45,18 @@
 
 ## 💡 Matérias D.A.S
 
-<center>
+<h1 align="center">
 
 [![Desenvolvimento de Software](https://img.shields.io/badge/-Software%20Development-blue?style=for-the-badge)](./1_Software-Development/README.md)
 [![Ciência de Dados](https://img.shields.io/badge/-Data%20Science-green?style=for-the-badge)](./2_Data-Science/README.md)
 [![Engenharia de Dados](https://img.shields.io/badge/-Data%20Engineering-orange?style=for-the-badge)](./3_Data-Engineering/README.md)
 [![Engenharia de IA](https://img.shields.io/badge/-AI%20Engineering-red?style=for-the-badge)](./4_AI-Engineering/README.md)
 
-</center>
-
 > [!TIP]
 > Clique nos botões para ser redirecionado ao conteúdo desejado!
+
+
+</h1>
 
 ## Ferramentas
 - [Khan Academy](https://pt.khanacademy.org)  
