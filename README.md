@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <b>Este roadmap foi criado para orientar o aprendizado nas áreas de Desenvolvimento de Software, Engenharia de Dados e Engenharia de Inteligência Artificial (IA), fornecendo um caminho de desenvolvedor à engenheiro de A.I. Todos os conteúdos que listarei podem ser encontrados de forma gratuita internet afora, porém, alguns cursos possam ser interessantes.</b>
+  <b>Este roadmap foi criado para orientar o aprendizado nas áreas de Desenvolvimento de Software, Engenharia de Dados e Engenharia de Inteligência Artificial (IA), fornecendo um caminho de desenvolvedor à engenheiro de A.I. Todos os conteúdos que listarei podem ser encontrados de forma gratuita internet afora, porém, alguns cursos possam ser interessantes. :godmode:</b>
 <br />
 
 > [!NOTE]
@@ -43,14 +43,15 @@
 - **Use os recursos adicionais**: O roadmap inclui recomendações de livros, cursos, ferramentas e outros materiais que complementarão seus estudos.
 
 
-## 💡 Matérias D.A.S
+## 🎓 Matérias D.A.S
 
 <h1 align="center">
 
-[![Desenvolvimento de Software](https://img.shields.io/badge/-Software%20Development-blue?style=for-the-badge)](./1_Software-Development/README.md)
-[![Ciência de Dados](https://img.shields.io/badge/-Data%20Science-green?style=for-the-badge)](./2_Data-Science/README.md)
-[![Engenharia de Dados](https://img.shields.io/badge/-Data%20Engineering-orange?style=for-the-badge)](./3_Data-Engineering/README.md)
-[![Engenharia de IA](https://img.shields.io/badge/-AI%20Engineering-red?style=for-the-badge)](./4_AI-Engineering/README.md)
+[![Desenvolvimento de Software](https://img.shields.io/badge/Software%20Development-%230077B5?style=for-the-badge&logo=code&logoColor=white)](./1_Software-Development/README.md) 
+[![Ciência de Dados](https://img.shields.io/badge/DATA%20SCIENCE-7c0eab?style=for-the-badge)](./2_Data-Science/README.md) 
+[![Engenharia de Dados](https://img.shields.io/badge/DATA%20ENGINEERING-200eab?style=for-the-badge
+)](./3_Data-Engineering/README.md) 
+[![Engenharia de IA](https://img.shields.io/badge/AI%20Engineering-%23FF0000?style=for-the-badge&logo=brain&logoColor=white)](./4_AI-Engineering/README.md)
 
 </h1>
 
@@ -59,13 +60,13 @@
 > Clique nos botões para ser redirecionado ao conteúdo desejado!
 
 
-## Ferramentas
+## 🔧 Ferramentas
 - [Khan Academy](https://pt.khanacademy.org)  
 - [HackerRank](https://www.hackerrank.com/)
 - [LeetCode](https://leetcode.com/)
 - [CodeWars](https://www.codewars.com/)
 
-## Outros Livros
+## 📙 Outros Livros
 - **The Art of Computer Programming**  
   *Autor: Donald E. Knuth*
 
@@ -81,7 +82,7 @@
 - **Designing Data Intensive Applications**   
   *Autor: Kleppmann*  
 
-## Referências
+## 📌 Referências
 
 - **Math - Open Source Society University (OSSU)**  
   Um currículo completo e gratuito para aprender matemática aplicada à ciência da computação, incluindo álgebra linear, cálculo, probabilidade, e muito mais.  
@@ -96,6 +97,6 @@
   Um repositório com diversos roadmaps de várias áreas de desenvolvimento das mais variadas.   
   [GitHub - Developer Roadmap](https://github.com/kamranahmedse/developer-roadmap/tree/master?tab=readme-ov-file)
 
-## Licença
+## ✒️ Licença
 
 Este projeto está licenciado sob a [GNU GENERAL PUBLIC LICENSE](./LICENSE).
