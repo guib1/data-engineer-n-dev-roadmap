@@ -97,6 +97,14 @@
   Um repositório com diversos roadmaps de várias áreas de desenvolvimento das mais variadas.   
   [GitHub - Developer Roadmap](https://github.com/kamranahmedse/developer-roadmap/tree/master?tab=readme-ov-file)
 
+- **ChatGPT - OpenAI**  
+  Utilizado para pesquisas, formatação e organização do texto apresentado.  
+  [Site Oficial](https://chatgpt.com)
+
+- **Apache Spark**  
+  Framework popular para processamento massivo de dados e big data. Foi observado as linguagens utilizadas no framework para categorização.   
+  [Apache Spark Documentation](https://spark.apache.org/docs/latest/)
+
 ## ✒️ Licença
 
 Este projeto está licenciado sob a [GNU GENERAL PUBLIC LICENSE](./LICENSE).

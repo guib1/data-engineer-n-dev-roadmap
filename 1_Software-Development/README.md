@@ -7,8 +7,8 @@
 - [Desenvolvimento de Software (Software Development)](#desenvolvimento-de-software-software-development)
   - [1. Matemática](#-1-matemática)
   - [2. Lógica de Programação Completa](#️-2-lógica-de-programação-completa)
-  - [3. Linguagens de Programação](#3-linguagens-de-programação)
-  - [4. Estrutura de Dados e SQL](#4-estrutura-de-dados-e-sql)
+  - [3. Linguagens de Programação](#-3-linguagens-de-programação)
+  - [4. Estrutura de Dados e SQL](#-4-estrutura-de-dados-e-sql)
   - [5. GIT e Controle de Versão](#5-git-e-controle-de-versão)
   - [6. DevOps e CI/CD](#6-devops-e-cicd)
     - [6.1 Terraform](#6-devops-e-cicd)
@@ -104,15 +104,69 @@ Como podemos ver, em python se torna muito mais simples a leitura, mas em geral 
 
 Abaixo estão listadas algumas linguagens e suas caracteristicas, atualmente existem mais de 1.300 linguagens em uso no mundo e cada uma tem sua própria finalidade e peculiaridade, para mais informações de cada uma é recomendado ler a documentação oficial.
 
-# As principais linguagens e suas características
+| **Tipo**         | **Linguagem**   | **Características**                                                                 | **Aplicações e Benefícios**                                              |
+|:-----------------:|:---------------:|-------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
+| **Baixo Nível**   | **C**           | - Linguagem eficiente e próxima do hardware.                                        | - Usada em sistemas embarcados e sistemas operacionais.                   |
+|                   | **C++**         | - Expande as capacidades do C com programação orientada a objetos.                 | - Usada em jogos, motores gráficos e sistemas complexos.                  |
+|                   | **Rust**        | - Foco em segurança e desempenho sem concessões.                                   | - Ideal para sistemas de alta performance e segurança de memória.         |
+| **Médio Nível**   | **C#**          | - Linguagem moderna com foco em produtividade e simplicidade.                      | - Usada em desenvolvimento de aplicativos, jogos (Unity) e sistemas web.  |
+|                   | **Java**        | - Linguagem robusta e multiplataforma.                                             | - Ideal para sistemas corporativos e engenharia de dados (ex.: Apache Spark). |
+|                   | **Golang**      | - Foco em desempenho, simplicidade e concorrência.                                 | - Ideal para aplicações em nuvem e sistemas distribuídos.                 |
+| **Alto Nível**    | **Python**      | - Linguagem de sintaxe simples e poderosa.                                         | - Muito usada para análise de dados, machine learning e automação.        |
+|                   | **R**           | - Voltada para estatística e visualização de dados.                                | - Ideal para análises estatísticas avançadas e ciência de dados.          |
+|                   | **Lua**         | - Leve, eficiente e embutível.                                                     | - Usada em scripts de jogos e aplicações embarcadas.                      |
+|                   | **Ruby**        | - Foco em simplicidade e produtividade.                                            | - Ideal para desenvolvimento web (ex.: Ruby on Rails).                    |
+|                   | **PHP**         | - Voltada para desenvolvimento web dinâmico.                                       | - Muito usada para criar websites e sistemas gerenciadores de conteúdo.   |
+|                   | **SQL**         | - Linguagem para manipulação e consulta de bancos de dados.                        | - Essencial para gestão e análise de dados em sistemas relacionais.       |
+| **Web**           | **JavaScript**  | - Linguagem de alto nível voltada para o desenvolvimento web.                      | - Essencial para criação de sites interativos e dinâmicos.                |
+|                   | **TypeScript**  | - Superconjunto do JavaScript com tipagem estática.                                | - Ideal para projetos front-end mais robustos e escaláveis.               |
+| **Mobile**        | **Swift**       | - Desenvolvida pela Apple para iOS e macOS.                                        | - Ideal para desenvolvimento de aplicativos nativos.                      |
+|                   | **Kotlin**      | - Foco em segurança e interoperabilidade com Java.                                 | - Usada no desenvolvimento Android e aplicativos multiplataforma.         |
+| **Funcional**     | **Scala**       | - Combina programação funcional e orientada a objetos.                             | - Ideal para sistemas distribuídos e big data (ex.: Apache Spark).         |
+|                   | **Haskell**     | - Puramente funcional com ênfase em expressões matemáticas.                        | - Usada em cenários críticos como finanças e segurança.                   |
 
-| **Tipo**       | **Linguagem** | **Características**                                                        | **Aplicações e Benefícios**                                          |
-|:--------------:|:-------------:|----------------------------------------------------------------------------|----------------------------------------------------------------------|
-| **Baixo Nível**| **C**         | - Linguagem eficiente e próxima do hardware.                              | - Usada em sistemas embarcados e sistemas operacionais.              |
-|                |               | - Ideal para controle de memória e desempenho crítico.                    | - Alta performance em aplicações sensíveis ao tempo.                 |
-| **Médio Nível**| **C++**       | - Expande as capacidades do C com programação orientada a objetos.         | - Usada em jogos, motores gráficos e sistemas complexos.             |
-|                |               | - Oferece controle de baixo nível com abstrações de alto nível.            | - Bom equilíbrio entre eficiência e flexibilidade.                   |
-| **Alto Nível** | **Python**    | - Linguagem de sintaxe simples e poderosa.                                 | - Muito usada para análise de dados, machine learning e automação.   |
-|                |               | - Rica em bibliotecas para dados (Pandas, NumPy, Scikit-learn).            | - Alta popularidade na área de dados e automação.                    |
-| **Web**        | **JavaScript**| - Linguagem de alto nível voltada para o desenvolvimento web.              | - Essencial para criação de sites interativos e dinâmicos.           |
-|                |               | - Ampla adoção em front-end e back-end (Node.js).                          | - Popularidade devido ao seu ecossistema robusto.                    |
+> [!NOTE]
+> Vale Ressaltar que alguns profissional acreditam que linguagens de programação "médio nivel" não chegam a existir, mas para uma melhor categorização consideraremos que exista.
+
+Um erro muito comum que é predominante na área de tecnologia são os famigerados "fanboy de (*insira uma linguagem*)", a verdade é que da para resolver qualquer problema com qualquer linguagem que seja, porém se não for adequado ao propósito da ferramenta, pode se tornar muito mais dificil. Um exemplo simples:
+
+- **Para uma analise de dados qual linguagem seria mais adequada?**
+  - Python
+  - C++
+
+  Tudo depende do contexto.
+
+### Principais Linguagens para Dados e Inteligência Artificial
+
+**1. Python**
+- Atualmente a linguagem mais versátil e popular em ciência de dados e A.I.
+- Suporte a bibliotecas como Pandas, NumPy, TensorFlow e PyTorch, abrangendo desde manipulação de dados até aprendizado profundo.
+- Para a área de dados é indispensável ter uma ótima base em Python.
+
+**2. SQL**
+- Essencial para consultar, manipular e gerenciar grandes volumes de dados em bancos de dados relacionais.
+- Ferramenta indispensável para a manipulação de dados em geral.
+
+**3. Java**
+- Amplamente utilizada em frameworks de Big Data, como Apache Hadoop e Apache Spark.
+- Ideal para sistemas distribuídos e processamento massivo de dados.
+- Linguagem consolidada com amplo suporte e uma biblioteca de ferramentas e framworks abrangente.
+
+**4. Scala**
+- Integrada ao ecossistema do Apache Spark, combinando funcionalidade de Big Data com programação funcional.
+- Excelente para processamento paralelo e pipelines de dados complexos.
+
+**5. R**
+- Simples, fácil e direto ao ponto.
+- Foco em manipulação de dados para estatística.
+
+### Livros
+
+
+#### **"Bíblias das linguagens"**
+- **Java: Como Programar**  
+  *Autor: Paul Deitel e Harvey Deitel*
+  
+<br>
+
+## 🛠️ 4. Estrutura de Dados e SQL
