@@ -16,7 +16,7 @@
 <br />
 
 > [!NOTE]
-> Se você gostou deste projeto, por favor me dê uma estrela ⭐ ajude a divulgar o material, contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests!!
+> Se você gostou deste projeto, por favor me dê uma estrela ⭐ ajude a divulgar o material, contribuições são bem-vindas! Sinta-se à vontade para dar sugestões!!
 
 ## 🔎 Objetivo
   O principal objetivo deste repositório é a busca por conhecimento acima de tudo. Não se trata apenas de conquistar uma vaga de emprego, mas de se consolidar como alguém que realmente entende e domina o que faz, alguém que é referência no que gosta. 
@@ -25,12 +25,12 @@
 
 ## 📖 Tabela de Conteúdo
 - [Introdução](#-introdução)
-- [Matérias D.A.S](#-introdução)
+- [Matérias D.A.S](#-matérias-das)
 - [Recursos Adicionais](#recursos-adicionais)
-  - [1. Ferramentas](#1-ferramentas)
-  - [2. Outros Livros](#2-outros-livros)
-- [Referências](#referências)
-- [Licença](#referências)
+  - [1. Ferramentas](#-ferramentas)
+  - [2. Outros Livros](#-outros-livros)
+- [Referências](#-referências)
+- [Licença](#️-licença)
 
 ## 💡 Introdução
   Para seguir esse estudo de um jeito que seja eficaz é necessário seguir algumas métricas para que não acabe sendo nem desgastante quanto confuso.
@@ -59,6 +59,10 @@
 > [!TIP]
 > Clique nos botões para ser redirecionado ao conteúdo desejado!
 
+## Recursos Adicionais
+
+- [Repositório com diversos livros de programação gratuitos](https://github.com/EbookFoundation/free-programming-books?tab=readme-ov-file)
+- [Repositório com varios projetos que contém um belo trabalho feito em Markdown (README.md)](https://github.com/EbookFoundation/free-programming-books?tab=readme-ov-file)
 
 ## 🔧 Ferramentas
 - [Khan Academy](https://pt.khanacademy.org)  
@@ -70,7 +74,7 @@
 - **The Art of Computer Programming**  
   *Autor: Donald E. Knuth*
 
-- **Domain-Driven Design: Atacando as Complexidades no Coração do Software**
+- **Domain-Driven Design: Atacando as Complexidades no Coração do Software**  
   *Autor: Eric Evans*
 
 - **Unit Testing Principles, Practices, and Patterns: Effective Testing Styles, Patterns, and Reliable Automation for Unit Testing, Mocking, and Integration Testing with Examples in C#**   

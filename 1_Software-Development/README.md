@@ -7,8 +7,8 @@
 - [Desenvolvimento de Software (Software Development)](#desenvolvimento-de-software-software-development)
   - [1. Matemática](#-1-matemática)
   - [2. Lógica de Programação Completa](#️-2-lógica-de-programação-completa)
-  - [3. Linguagens de Programação](#-3-linguagens-de-programação)
-  - [4. Estrutura de Dados e SQL](#-4-estrutura-de-dados-e-sql)
+  - [3. Linguagens de Programação](#️-3-linguagens-de-programação)
+  - [4. Estrutura de Dados e SQL](#️-4-estrutura-de-dados-e-sql)
   - [5. GIT e Controle de Versão](#5-git-e-controle-de-versão)
   - [6. DevOps e CI/CD](#6-devops-e-cicd)
     - [6.1 Terraform](#6-devops-e-cicd)
@@ -160,13 +160,18 @@ Um erro muito comum que é predominante na área de tecnologia são os famigerad
 - Simples, fácil e direto ao ponto.
 - Foco em manipulação de dados para estatística.
 
+### Links com conteúdo informátivo
+
+| Nome | Descrição | Link | 
+|:------|:------|:------|
+| MINICURSO Java do ZERO ao SPRING BOOT | Video explicativo utilizando java ao framework springboot | https://www.youtube.com/watch?v=KDOJaQxTavI |
+| Maratona Java Virado no Jiraya | Curso completo de 286 videos totalmente gratuito de Java | https://www.youtube.com/playlist?list=PL62G310vn6nFIsOCC0H-C2infYgwm8SWW |
+
 ### Livros
-
-
-#### **"Bíblias das linguagens"**
 - **Java: Como Programar**  
   *Autor: Paul Deitel e Harvey Deitel*
   
 <br>
 
-## 🛠️ 4. Estrutura de Dados e SQL
+## 📁 4. Estrutura de Dados e SQL
+
