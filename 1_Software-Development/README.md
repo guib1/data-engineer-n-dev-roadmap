@@ -75,4 +75,44 @@ Matemática é frequentemente negligenciada por muitos vendedores de cursos, mas
 
 <br>
 
-## 🛠️ 3. Linguagens de Programação
+## 🖥️ 3. Linguagens de Programação
+
+- **O que são linguagens de programação?**
+  - Essas linguagens podem ser utilizadas para a criação de softwares, processamento de dados, desenvolvimento de sistemas e resolução de todo tipo de problema computacional.
+  - Assim como a linguagem que usamos no dia-a-dia como Português e Inglês, as linguagens de programação foram criadas para permitir a comunicação, a diferença é que esse tipo de linguagem foi criada com o proposito de facilitar a comunicação entre humano e o computador que só compreende linguagem de máquina. 
+
+### Exemplo:
+
+Hello World em Linguagem de máquina para Linux X86:
+```
+10111000 00000100 00000000 00000000 00000000
+10111011 00000001 00000000 00000000 00000000
+10111001 00000000 00000000 00000000 00000000
+10111010 00001101 00000000 00000000 00000000
+11001101 10000000 10111000 00000001 00000000 
+00000000 00000000 00110001 11011011 11001101 
+10000000
+```
+
+O mesmo código mas agora em Python
+```python
+print("Hello, World!")
+```
+Como podemos ver, em python se torna muito mais simples a leitura, mas em geral as linguagens são apenas uma forma de desenvolver de maneira mais próxima da linguagem humana.
+
+### As principais linguagens e suas características
+
+Abaixo estão listadas algumas linguagens e suas caracteristicas, atualmente existem mais de 1.300 linguagens em uso no mundo e cada uma tem sua própria finalidade e peculiaridade, para mais informações de cada uma é recomendado ler a documentação oficial.
+
+# As principais linguagens e suas características
+
+| **Tipo**       | **Linguagem** | **Características**                                                        | **Aplicações e Benefícios**                                          |
+|:--------------:|:-------------:|----------------------------------------------------------------------------|----------------------------------------------------------------------|
+| **Baixo Nível**| **C**         | - Linguagem eficiente e próxima do hardware.                              | - Usada em sistemas embarcados e sistemas operacionais.              |
+|                |               | - Ideal para controle de memória e desempenho crítico.                    | - Alta performance em aplicações sensíveis ao tempo.                 |
+| **Médio Nível**| **C++**       | - Expande as capacidades do C com programação orientada a objetos.         | - Usada em jogos, motores gráficos e sistemas complexos.             |
+|                |               | - Oferece controle de baixo nível com abstrações de alto nível.            | - Bom equilíbrio entre eficiência e flexibilidade.                   |
+| **Alto Nível** | **Python**    | - Linguagem de sintaxe simples e poderosa.                                 | - Muito usada para análise de dados, machine learning e automação.   |
+|                |               | - Rica em bibliotecas para dados (Pandas, NumPy, Scikit-learn).            | - Alta popularidade na área de dados e automação.                    |
+| **Web**        | **JavaScript**| - Linguagem de alto nível voltada para o desenvolvimento web.              | - Essencial para criação de sites interativos e dinâmicos.           |
+|                |               | - Ampla adoção em front-end e back-end (Node.js).                          | - Popularidade devido ao seu ecossistema robusto.                    |
